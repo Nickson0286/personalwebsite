@@ -16,7 +16,7 @@
     </a>
   </div>
   <div class="relative shadow-2xl grid place-items-center">
-    <img src={"images/profile.png"} alt="profile image" class="objective-cover z-[2] max-h-[60vh]"/>
+    <img src={"images/profile.png"} alt="profile image" class="objective-cover z-[2] max-h-[80vh]"/>
   </div>
 </div>
 </SectionWrapper>
