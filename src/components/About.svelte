@@ -3,7 +3,7 @@
   let benefits = [
     {name: 'a self taught developer', description:"I taught myself to code using multiple resources including University's curriculum, free online tutorial, and coding bootcamps, and I feel in love with the creativity and problem solving that is involed in developing and engineering innovative online experiences. Starting with JavaScript, HTML & CSS and evolving my knowledge base to include JavaScript frameworks, backend programming, design, cloud services and much more."},
     {name: 'a product design and back-end enthusiatic', description:"Seasoned in utilizing Node.js, I bring a wealth of experience in constructing robust backend servers for diverse software applications, employing various technologies and implementing rigorous security measures. My proficiency ensures the development of reliable and secure server-side solutions tailored to meet the unique requirements of each project."},
-    {name: 'an excellent communicator', description:'Communication is key and it\'s a paramount value of mine. I belive in transparency and constructive conmmunication above all else. This helps me develop deep relationships and ensures my effectiveness and productivity in any work space with any team.'},
+    {name: 'an excellent communicator', description:'Communication is key and it\'s a paramount value of mine. I believe in transparency and constructive conmmunication above all else. This helps me develop deep relationships and ensures my effectiveness and productivity in any work space with any team.'},
   ]
 
 </script>

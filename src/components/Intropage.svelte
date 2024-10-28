@@ -5,7 +5,7 @@
 <SectionWrapper id="introPage">
 <div  class="grid gird-cols-1 lg:grid-cols-2 gap-10 py-8 sm:py-14 ">
   <div class="flex flex-col lg:justify-center text-center lg:text-left gap-6 md:gap-8 lg:gap-10">
-    <h2 class="font-semibold text-4xl sm:text-5xl md:text-6xl">
+    <h2 class="font-semibold text-4xl sm:text-5xl md:text-6xl lg:text-7xl">
       Hi! I'm <span class="poppins text-violet-400">Nguyen</span> Van <br/>Full Stack <span class="poppins text-violet-400">Developer</span>
     </h2>
     <p class="text-base sm:text-lg md:text-xl">My <span class="text-violet-400">favorite tech</span> includes JavaScript (ReactJS or SvelteKit), TailwindCSS, Node.js + Express.js & PostgreSQL.</p>

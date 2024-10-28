@@ -1,11 +1,15 @@
 <script>
+// @ts-nocheck
+
   import Step from "./Step.svelte"
   import Intropage from "./Intropage.svelte";
   import About from "./About.svelte";
 
   let steps = [
-    {name: "Office Ally Clone", icon:" fa-solid fa-calendar-check"},
-    {name: "Speech-To-Text Transcriptor", icon:" fa-solid fa-comment-dots"},
+    {name: "Office Ally Clone", icon:" fa-solid fa-calendar-check", description: `Office Ally is a web application created with React.js, TailwindCSS, Node.js, Express.js. It allows medical staff to schedule, create, and manage patients' appointments and charts.`},
+    {name: "Speech-To-Text Transcriptor", icon:" fa-solid fa-comment-dots", description: `Google Speech-To-Text Transcriptor is a web application allow user to record and transcribe their voice into text and display it on web page, created with React.js, TailwindCSS, Node.js Express.js, & Google Cloud Speech To Text API`},
+    {name: "Gym App Generator", icon:" fa-solid fa-dumbbell", description: `Gym App Generator is a web application created with React.js, TailwindCSS, Node.js, Express.js, & PostgreSQL. It allows users to generate a custom workout plan based on their fitness goals and preferences.`, href:'https://gym-training-generator.netlify.app/'},
+    {name: "Ooh La La Salon", icon:"fa-solid fa-paintbrush", href:"https://oohlalasalon.netlify.app", description: `a custom salon appointment management system with a landing page, featuring seamless scheduling, customer management, and automated notifications. Focused on an intuitive user interface while optimizing backend performance for efficient data processing. Technologies used include SvelteKit, TailwindCSS, Node.js, Express.js, and PostgreSQL.`},
   ]
 
   
@@ -27,14 +31,10 @@
 
     </a> -->
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-10">
-      
-      <Step step={steps[0]}>
-        <p>Office Ally is a web application created with <strong class="text-violet-400">React.js TailwindCSS </strong> & <strong class="text-violet-400">Node.js </strong> + <strong class="text-violet-400">Express.js</strong> & <strong class="text-violet-400">PostgreSQL</strong>. It allows medical staff to schedule, create, and manage patients' appointments and charts.
-        </p>
-      </Step>
-      <Step step={steps[1]}>
-        <p>Google Speech-To-Text Transcriptor is a web application allow user to record and transcribe their voice into text and diplay it on web page, created with <strong class="text-violet-400">React.js TailwindCSS </strong> & <strong class="text-violet-400">Node.js </strong> + <strong class="text-violet-400">Express.js</strong> & <strong class="text-violet-400">Google Cloud Speech To Text API</strong>.
-      </Step>
+
+      {#each steps as project}
+        <Step step={project}/>
+      {/each}
       
     </div>
   </section>
