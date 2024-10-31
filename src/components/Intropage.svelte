@@ -10,7 +10,8 @@
     const handleScroll = () => {
       const scrollPosition = window.scrollY;
       const maxScroll = window.innerHeight;
-
+      
+      
       // Calculate translateX for fly-out effect
       translateXLeft = -scrollPosition * 0.5;  // Left div flies left
       translateXRight = scrollPosition * 0.5;  // Right div flies right
