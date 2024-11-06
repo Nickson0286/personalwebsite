@@ -89,19 +89,19 @@
 
   @keyframes rotate {
     0% {
-      transform: rotateX(-16deg) rotateY(0deg);
+      transform: rotateX(-16deg) rotateY(0deg) rotateZ(0deg);
     }
     25% {
-      transform: rotateX(0deg) rotateY(90deg);
+      transform: rotateX(0deg) rotateY(90deg) rotateZ(30deg);
     }
     50% {
-      transform: rotateX(16deg) rotateY(180deg);
+      transform: rotateX(10deg) rotateY(180deg) rotateZ(60deg);
     }
     75% {
-      transform: rotateX(0deg) rotateY(270deg);
+      transform: rotateX(0deg) rotateY(270deg) rotateZ(30deg);
     }
     100% {
-      transform: rotateX(-16deg) rotateY(360deg);
+      transform: rotateX(-16deg) rotateY(360deg) rotateZ(0deg);
     }
   }
 </style>
